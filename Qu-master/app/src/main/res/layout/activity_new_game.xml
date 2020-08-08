@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewGame"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:hint="Question"
+        android:textAlignment="center"
+        android:id="@+id/que"
+        android:textSize="22sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true"
+            android:hint="Option 1"
+            android:id="@+id/opt1"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:hint="Option 2"
+            android:id="@+id/opt2"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="60dp"
+            android:layout_alignParentLeft="true"
+            android:hint="Option 3"
+            android:id="@+id/opt3"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="60dp"
+            android:hint="Option 4"
+            android:id="@+id/opt4"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+    </RelativeLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:hint="Answer"
+        android:textAlignment="center"
+        android:id="@+id/ans"
+        android:textSize="22sp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_rounded"
+        android:text="Add"
+        android:textSize="22sp"
+        android:id="@+id/post"
+        android:textColor="#ffffff"
+        android:onClick="add"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_rounded"
+        android:text="End Quiz"
+        android:textSize="22sp"
+        android:id="@+id/end"
+        android:textColor="#ffffff"
+        android:onClick="end"/>
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".SignUp">
+
+
+
+        <EditText
+            android:id="@+id/firstname"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="15dp"
+            android:textColorHint="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First Name"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="20sp"/>
+
+
+
+
+
+
+        <EditText
+            android:id="@+id/lastname"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="15dp"
+            android:textColorHint="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Last Name"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="20sp"/>
+
+
+
+
+        <EditText
+            android:id="@+id/email"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="15dp"
+            android:textColorHint="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="20sp"/>
+
+
+
+
+        <EditText
+            android:id="@+id/password"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="15dp"
+            android:textColorHint="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textSize="20sp"/>
+
+
+        <EditText
+            android:id="@+id/confirm"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="15dp"
+            android:textColorHint="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textSize="20sp"/>
+
+    
+    
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textSize="20sp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20sp"
+            android:id="@+id/male"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:layout_marginRight="10dp"
+            android:textSize="20sp"
+            android:id="@+id/female"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="SignUp"
+        android:textSize="22sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_rounded"
+        android:id="@+id/signup"/>
+
+
+
+</LinearLayout>
